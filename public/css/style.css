@@ -13,7 +13,7 @@ header {
 nav {
     display: flex;
 
-    font-size: 60%;
+    font-size: 80%;
 
     color: white;
 }
@@ -28,18 +28,21 @@ nav {
 }
 
 #ulNav {
-    width: 50%;
+    width: 20%;
 }
 
 nav ul {
     display: flex;
+
     margin: auto;
+    margin-left: 20%;
 }
 
 nav li {
     list-style: none;
 
-    margin: auto 20px;
+    margin-top: 5px;
+    margin-right: 10%;
 }
 
 nav a{
@@ -54,8 +57,9 @@ nav a{
 #visageSection {
     background-color: #DA3644;
     color: white;
-}
 
+    padding-top: 1px;
+}
 
 #contactSection div {
     display: flex;
@@ -68,10 +72,19 @@ nav a{
     height: auto;
 
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #contactSection h1,p {
     margin: 1vh auto;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+.paraVisageSection {
+    padding-bottom: 100px;
 }
 
 /* SECTION IMAGE */
@@ -128,6 +141,13 @@ nav a{
     margin: 50px auto;
 }
 
+.titreContact {
+    margin-bottom: 20px;
+}
+.form {
+    margin-right: 10%;
+}
+
 input {
     margin-bottom: 50px;
 }
@@ -135,11 +155,23 @@ input {
 input,textarea {
     border: none;
     border-bottom: solid rgba(0, 0, 0, 0.116) 1px;
+
+    width: 165%;
+}
+
+textarea {
+    height: 200px;
 }
 
 button {
     background-color: #DA3644;
     color: white;
+
+    border: none;
+    border-radius: 10% 10% 10% 10%;
+
+    margin-top: 30px;
+    padding: 8%;
 }
 
 
@@ -161,6 +193,12 @@ button {
 
 .container>div {
     width: 30%;
+}
+
+i {
+    font-size: 150%;
+
+    margin: 8% 3%;
 }
 
 span {
